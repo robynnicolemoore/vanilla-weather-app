@@ -1,3 +1,18 @@
-body {
-  font-family: oswald;
+* {
+  font-family: "Oswald", sans-serif;
 }
+
+h1 {
+  color: #757bc8;
+}
+
+h2 {
+  color: #757bc8;
+}
+
+h3 {
+  color: #757bc8;
+}
+li {
+    color: #240046;
+]
