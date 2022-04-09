@@ -4,15 +4,41 @@
 
 h1 {
   color: #757bc8;
+  text-align: center;
 }
 
 h2 {
   color: #757bc8;
+  text-align: center;
 }
 
 h3 {
   color: #757bc8;
+  text-align: center;
 }
 li {
-    color: #240046;
-]
+  color: #240046;
+}
+
+.searchButton {
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-size: 22px;
+  display: block;
+  margin: 0 auto;
+}
+
+.search {
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  color: white;
+  background-color: #757bc8;
+  transition: 200ms ease-in-out;
+}
+
+input {
+  text-align: center;
+}
