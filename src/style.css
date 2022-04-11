@@ -16,6 +16,10 @@ h3 {
   color: #757bc8;
   text-align: center;
 }
+
+#description {
+  text-transform: capitalize;
+}
 li {
   color: #240046;
 }
