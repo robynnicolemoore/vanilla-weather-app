@@ -10,6 +10,7 @@ h1 {
 h2 {
   color: #757bc8;
   text-align: center;
+  font-size: 22px;
 }
 
 h3 {
@@ -22,6 +23,10 @@ h3 {
 }
 li {
   color: #240046;
+}
+
+#date {
+  font-size: 14px;
 }
 
 .searchButton {
