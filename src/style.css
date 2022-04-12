@@ -26,6 +26,15 @@ li {
   color: #240046;
   margin-top: 20px;
 }
+#temperature {
+  font-size: 42px;
+}
+
+.active {
+  color: #240046;
+  text-decoration: none;
+  cursor: default;
+}
 
 #date {
   font-size: 14px;
