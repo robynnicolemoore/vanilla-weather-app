@@ -55,6 +55,10 @@ img {
   text-decoration: none;
   cursor: default;
 }
+.active:hover {
+  text-decoration: none;
+  color: #240046;
+}
 
 #date {
   font-size: 14px;
