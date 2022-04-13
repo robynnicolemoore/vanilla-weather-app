@@ -19,12 +19,34 @@ h3 {
   font-size: 32px;
 }
 
+.forecastDay {
+  font-size: 18px;
+  color: #757bc8;
+  text-align: center;
+}
+
+.forecastTemp {
+  font-size: 16px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 14px;
+}
 #description {
   text-transform: capitalize;
 }
 li {
   color: #240046;
   margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-height: 50px;
 }
 #temperature {
   font-size: 42px;
