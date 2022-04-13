@@ -41,7 +41,7 @@ function displayWeather(response) {
     "src",
     `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
-  displayForecast();
+  getForecast(response.data.coord);
 }
 
 function search(city) {
@@ -73,7 +73,13 @@ function displayCelsiusTemperature(event) {
   celsiusLink.classList.add("active");
 }
 
-function displayForecast() {
+function getForecast(coordinates) {
+  let apiKey = "c13ec1823489873786dad083e25adf72";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&exclude={part}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+function displayForecast(response) {
+  console.log(response.data.daily);
   let forecastElement = document.querySelector("#forecast");
   let days = ["Monday", "Tuesday", "Wednesday", "Thursday"];
   forecastHTML = "";
